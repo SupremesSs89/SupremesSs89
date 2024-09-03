@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <body style="margin:0;">
+
+    <h2>Математик тэгшитгэл бодъё</h2>
+
+    <p>(1/2(Math.sqrt(48)))-2(Math.sqrt(75))-Math(54)+5(Math.sqrt(3*1+1))-(Math.sqrt(1*3+5))+4.5*(Math.sqrt(2*3+2))+2(Math.sqrt(27))</p><p id="Math"></p>
+    <script>
+        let a=Math.sqrt(48)
+        let b=Math.sqrt(75)
+        let c=Math.sqrt(54)
+        let d=Math.sqrt(4/3)        
+        let z=Math.sqrt(16/3)
+        let x=Math.sqrt(8/3)
+        let u=Math.sqrt(27)
+        let v=1
+        let k=2
+        let n=5
+        let m=4.5
+        let p=v/k*a-k*b-c+n*d-z+m*x+k*u;
+
+        console.log(p);
+    document.getElementById("Math").innerHTML =p
+
+    </script>
+    </body>
+  </html>
